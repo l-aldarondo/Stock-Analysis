@@ -20,7 +20,7 @@ The purpose of this project had two objectives: (1)To provide the Stakeholders a
 
 The initial code iterated over the entire year worth of stock data once for each “stock of interest”. This required twelve separated iterations  over the entire year's data. The results for each of the two years analyzed is show below in Fig 1.1 and Fig 1.2
 
-![green_stocks_2017__with_data.png]Images/green_stocks_2017__with_data.png)
+![green_stocks_2017__with_data.png](Images/green_stocks_2017__with_data.png)
 
 Figure 1.1
 Initial Green_stocks_analysis 2017
