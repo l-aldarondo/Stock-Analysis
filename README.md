@@ -2,7 +2,7 @@
 
 Performing data analysis on stocks data using Visual Basic for Applications (VBA).
 
-## VBA_Stockmarket Analysys
+## VBA Stock Market Analysis
 
 ## Background
 
