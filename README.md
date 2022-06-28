@@ -10,15 +10,14 @@ The stakeholders were interested in performing an analysis of  thousands of stoc
 
 ## Overview of Project
 
-This analysis aims to provide the total daily volume and yearly return for twelve “stocks of interest” for a given year.
+This analysis aims to provide the “total daily volume” and “yearly return”  for twelve stocks of interest for a given year.
 
 ### Purpose
 
-The purpose of this project had two objectives: (1)To provide the Stakeholders an initial analysis of thousands of stocks to find the total daily volume and yearly return for each stock over a given year. (2). To edit or refactor our initial analysis to loop through all the data one time to collect the same information. Then, we compared the outcome against the initial analysis to determine whether refactoring the code successfully made the VBA script run faster.
-
+The purpose of this project had two objectives: (1)To provide an initial analysis of thousands of stocks to find the “total daily volume” and “yearly return” for each stock over a given year. (2 ). To edit or refactor our initial analysis to loop through all the data one time to collect the same information. Then, we compared the outcome against the initial analysis to determine whether refactoring the code successfully made the VBA script run faster.
 ### Analysis of Outcomes
 
-The initial code iterated over the entire year worth of stock data once for each “stock of interest”. This required twelve separated iterations  over the entire year's data. The results for each of the two years analyzed is show below in Fig 1.1 and Fig 1.2
+The initial code (asynchronous) iterates over the entire year worth of stock data once for each “stock of interest”. This required twelve separated iterations  over the entire year's data. The results for each of the two years analyzed is shown below in Fig 1.1 and Fig 1.2
 
 ![green_stocks_2017__with_data.png](Images/green_stocks_2017__with_data.png)
 
@@ -28,6 +27,8 @@ The initial code iterated over the entire year worth of stock data once for each
 
 <sub>Figure 1.2 Initial_Green_stocks_analysis 2018
 
+The refactored (synchronous) code iterated over all data for a given year only once while still capturing all necessary values needed to update the summary table as shown in Fig 1.3 and 1.4
+
 ![VBA_Challenge_2017_with_data.png](Images/VBA_Challenge_2017_with_data.png)
 
 <sub>Figure 1.3 VBA_Challenge_2017_Refactored
@@ -36,43 +37,69 @@ The initial code iterated over the entire year worth of stock data once for each
 
 <sub>Figure 1.4 VBA_Challenge_2018_Refactored
 
+If we compare the output values in the summary tables for the original code and the refactored code, we can see that both outcomes are the same  as shown in Fig 1.1 to 1.4. Meaning that our refactored code preserved the same functionalities as our original code but with improved runtimes.
+
+
 ## Results
 
-### Outcomes of Original code analysis
+### Outcomes of Original Code Analysis
 
-- Runtime for year 2017 was 1.121094
+- Runtime for year 2017 was **1.121094**
 
 ![green_stocks_2017.png](Resources/green_stocks_2017.png)
 
-- Runtime for year 2018 was 1.132813
+- Runtime for year 2018 was **1.132813**
 
 ![green_stocks_2018.png](Resources/green_stocks_2018.png)
 
-### Outcomes of Refactored code analysis
+### Outcomes of Refactored Code Analysis
 
-- Runtime for year 2017 was 0.1328125
+- Runtime for year 2017 was **0.1328125**
 
+![VBA_Challenge_2017.png](Resources/VBA_Challenge_2017.png)
 
-- Runtime for year 2018 was 0.1367188
+- Runtime for year 2018 was **0.1367188**
 
-
+![VBA_Challenge_2018.png](Resources/VBA_Challenge_2018.png)
 
 ### Overall decrease in runtime and decrease in percentage using 2017 data
 
-Overall decrease = original time (asynchronous) - new synchronous
-Overall decrease = 1.121094 - 0.1328125
-OD = 0.9882815
+Overall decrease = original time (asynchronous time) - new time (synchronous time)<br />
 
-Percentage runtime reduction = (overall decrease / original) time *100
-Percentage runtime reduction = (0.9882815 / 1.121094)* 100 = 88.15%
+Overall decrease = 1.121094 - 0.1328125<br />
+
+Overall decrease = **0.9882815**
+
+Percentage runtime reduction = (overall decrease / original time) *100<br />
+
+Percentage runtime reduction = (0.9882815 / 1.121094)* 100 = **88.15%**
 
 ### Overall decrease in runtime and decrease in percentage using 2018 data
 
-Overall decrease = original time (asynchronous) - new synchronous
-Overall decrease = 1.132813 -  0.1367188
-OD = 0.9960942
+Overall decrease = original time (asynchronous time) - new time (synchronous time<br />
 
-Percentage runtime reduction = (overall decrease / original) time *100
-Percentage runtime reduction = (0.9960942 / 1.132813)* 100 = 87.93%
+Overall decrease = 1.132813 -  0.1367188<br />
+
+Overall decrease = **0.9960942**
+
+
+Percentage runtime reduction = (overall decrease / original time) *100<br />
+
+Percentage runtime reduction = (0.9960942 / 1.132813)* 100 = **87.93%**
 
 ## Summary
+ 
+### Pros and Cons:
+#### In general:
+ 
+- In general the advantages of refactoring a code includes reduced runtime saving time with all the same functionality of the original code. 
+- Also, reduces complexity and redundancies and  increases maintainability of the code.
+- However this comes at a cost to include the time required to refactor the code.
+- Also, anytime code is refactored there is a potential of introducing new bugs and errors to an already working code.
+- Sometimes when large teams are working refactoring the same code, coordination can represent a challenge since it requires greater communication within the team.
+ 
+ 
+#### Specific for the refactored VBA code
+
+- The results of the refactoring the already working VBA script represented an **88%** decrease in runtime while still achieving the identical summary results as shown in tables Fig 1.1 to 1.4
+- We improved the legibility and comprehensibility of the code, now it is easier to read without the additional nested ”for loop” and macros.
