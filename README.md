@@ -26,14 +26,15 @@ The initial code iterated over the entire year worth of stock data once for each
 
 ![green_stocks_2018__with_data.png](Images/green_stocks_2018__with_data.png)
 
-Figure 1.2
-Initial_Green_stocks_analysis 2018
+<sub>Figure 1.2 Initial_Green_stocks_analysis 2018
 
-Figure 1.3
-VBA_Challenge_2017_Refactored
+![VBA_Challenge_2017_with_data.png](Images/VBA_Challenge_2017_with_data.png)
 
-Figure 1.3
-VBA_Challenge_2017_Refactored
+<sub>Figure 1.3 VBA_Challenge_2017_Refactored
+
+![VBA_Challenge_2018_with_data.png](Images/VBA_Challenge_2018_with_data.png)
+
+<sub>Figure 1.4 VBA_Challenge_2018_Refactored
 
 ## Results
 
