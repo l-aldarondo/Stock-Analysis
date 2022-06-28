@@ -6,7 +6,7 @@ Performing data analysis on stocks data using Visual Basic for Applications (VBA
 
 ## Background
 
-The stakeholders were interested in performing an analysis of  thousands of stocks over multiple years using Excel and  VBA.
+The stakeholders were interested in performing an analysis of thousands of stocks over multiple years using Excel and VBA.
 
 ## Overview of Project
 
@@ -14,10 +14,11 @@ This analysis aims to provide the “total daily volume” and “yearly return�
 
 ### Purpose
 
-The purpose of this project had two objectives: (1)To provide an initial analysis of thousands of stocks to find the “total daily volume” and “yearly return” for each stock over a given year. (2 ). To edit or refactor our initial analysis to loop through all the data one time to collect the same information. Then, we compared the outcome against the initial analysis to determine whether refactoring the code successfully made the VBA script run faster.
+The purpose of this project had two objectives: (1) To provide an initial analysis of thousands of stocks to find the “total daily volume” and “yearly return” for each stock over a given year. (2) To edit or refactor our initial analysis to loop through all the data one time to collect the same information. Then, we will compare the outcome against the initial analysis to determine whether refactoring the code successfully made the VBA script run faster.
+
 ### Analysis of Outcomes
 
-The initial code (asynchronous) iterates over the entire year worth of stock data once for each “stock of interest”. This required twelve separated iterations  over the entire year's data. The results for each of the two years analyzed is shown below in Fig 1.1 and Fig 1.2
+The initial code (asynchronous) iterates over the entire year's worth of stock data once for each “stock of interest”. This required twelve separate iterations over the entire year's data. The results for each of the two years analyzed is shown below in Fig 1.1 and Fig 1.2
 
 ![green_stocks_2017__with_data.png](Images/green_stocks_2017__with_data.png)
 
@@ -37,7 +38,7 @@ The refactored (synchronous) code iterated over all data for a given year only o
 
 <sub>Figure 1.4 VBA_Challenge_2018_Refactored
 
-If we compare the output values in the summary tables for the original code and the refactored code, we can see that both outcomes are the same  as shown in Fig 1.1 to 1.4. Meaning that our refactored code preserved the same functionalities as our original code but with improved runtimes.
+If we compare the output values in the summary tables for the original code and the refactored code, we can see that both outcomes are the same as shown in Fig 1.1 to 1.4. This means that our refactored code preserved the same functionalities as our original code, but with improved runtimes.
 
 
 ## Results
@@ -92,11 +93,11 @@ Percentage runtime reduction = (0.9960942 / 1.132813)* 100 = **87.93%**
 ### Pros and Cons:
 #### In general:
  
-- In general the advantages of refactoring a code includes reduced runtime saving time with all the same functionality of the original code. 
-- Also, reduces complexity and redundancies and  increases maintainability of the code.
-- However this comes at a cost to include the time required to refactor the code.
-- Also, anytime code is refactored there is a potential of introducing new bugs and errors to an already working code.
-- Sometimes when large teams are working refactoring the same code, coordination can represent a challenge since it requires greater communication within the team.
+- In general, the advantages of refactoring a code include a reduced runtime which saved time while maintaining all the same functionalities of the original code. 
+- It also reduces complexity and redundancies and increases maintainability of the code.
+- However, this comes at a cost to include the time required to refactor the code.
+- Additionally, anytime code is refactored there is a potential of introducing new bugs and errors to an already working code.
+- Sometimes when large teams are working on refactoring the same code, coordination can represent a challenge since it requires greater communication within the team.
  
  
 #### Specific for the refactored VBA code
