@@ -22,8 +22,9 @@ The initial code iterated over the entire year worth of stock data once for each
 
 ![green_stocks_2017__with_data.png](Images/green_stocks_2017__with_data.png)
 
-Figure 1.1
-Initial Green_stocks_analysis 2017
+<sub> Figure 1.1 Initial Green_stocks_analysis 2017
+
+![green_stocks_2018__with_data.png](Images/green_stocks_2018__with_data.png)
 
 Figure 1.2
 Initial_Green_stocks_analysis 2018
