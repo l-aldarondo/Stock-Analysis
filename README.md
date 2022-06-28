@@ -22,11 +22,11 @@ The initial code (asynchronous) iterates over the entire year's worth of stock d
 
 ![green_stocks_2017__with_data.png](Images/green_stocks_2017__with_data.png)
 
-<sub> Figure 1.1 Initial Green_stocks_analysis 2017
+<sub> Figure 1.1 Initial AllStockAnalysis_2017
 
 ![green_stocks_2018__with_data.png](Images/green_stocks_2018__with_data.png)
 
-<sub>Figure 1.2 Initial_Green_stocks_analysis 2018
+<sub>Figure 1.2 Initial_AllStockAnalysis_2018
 
 The refactored (synchronous) code iterated over all data for a given year only once while still capturing all necessary values needed to update the summary table as shown below in Fig 1.3 and 1.4
 
@@ -38,12 +38,12 @@ The refactored (synchronous) code iterated over all data for a given year only o
 
 <sub>Figure 1.4 VBA_Challenge_2018_Refactored
 
-If we compare the output values in the summary tables for the original code and the refactored code, we can see that both outcomes are the same as shown in Fig 1.1 to 1.4. This means that our refactored code preserved the same functionalities as our original code, but with improved runtimes.
+If we compare the output values in the summary tables for the original code (AllStockAnalysis) and the refactored code (VBA_Challenge), we can see that both outcomes are the same as shown in Fig 1.1 to 1.4. This means that our refactored code preserved the same functionalities as our original code, but with improved runtimes.
 
 
 ## Results
 
-### Outcomes of Original Code Analysis
+### Outcomes of Original Code Analysis (AllStockAnalysis)
 
 - Runtime for year 2017 was **1.121094**
 
@@ -53,7 +53,7 @@ If we compare the output values in the summary tables for the original code and 
 
 ![green_stocks_2018.png](Resources/green_stocks_2018.png)
 
-### Outcomes of Refactored Code Analysis
+### Outcomes of Refactored Code Analysis (VBA_Challenge)
 
 - Runtime for year 2017 was **0.1328125**
 
