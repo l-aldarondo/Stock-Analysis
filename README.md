@@ -47,11 +47,11 @@ If we compare the output values in the summary tables for the original code (All
 
 - Runtime for year 2017 was **1.121094**
 
-![green_stocks_2017.png](Resources/green_stocks_2017.png)
+![AllStockAnalysis_2017.png](Resources/AllStockAnalysis_2017.png)
 
 - Runtime for year 2018 was **1.132813**
 
-![green_stocks_2018.png](Resources/green_stocks_2018.png)
+![AllStockAnalysis_2018.png](Resources/AllStockAnalysis_2018.png)
 
 ### Outcomes of Refactored Code Analysis (VBA_Challenge)
 
