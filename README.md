@@ -32,7 +32,7 @@ The initial code iterated over the entire year worth of stock data once for each
 
 <sub>Figure 1.3 VBA_Challenge_2017_Refactored
 
-![VBA_Challenge_2018_with_data.png](Images/VBA_Challenge_2018_with_data.png)
+![VBA_Challenge_2018__with_data.png](Images/VBA_Images/VBA_Challenge_2018__with_data.png)
 
 <sub>Figure 1.4 VBA_Challenge_2018_Refactored
 
