@@ -27,7 +27,7 @@ The initial code (asynchronous) iterates over the entire year worth of stock dat
 
 <sub>Figure 1.2 Initial_Green_stocks_analysis 2018
 
-The refactored (synchronous) code iterated over all data for a given year only once while still capturing all necessary values needed to update the summary table as shown in Fig 1.3 and 1.4
+The refactored (synchronous) code iterated over all data for a given year only once while still capturing all necessary values needed to update the summary table as shown below in Fig 1.3 and 1.4
 
 ![VBA_Challenge_2017_with_data.png](Images/VBA_Challenge_2017_with_data.png)
 
