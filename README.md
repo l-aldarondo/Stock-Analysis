@@ -38,15 +38,24 @@ The initial code iterated over the entire year worth of stock data once for each
 
 ## Results
 
-### Outcomes of original analysis
+### Outcomes of Original code analysis
 
 - Runtime for year 2017 was 1.121094
+
+![green_stocks_2017.png](Resources/green_stocks_2017.png)
+
 - Runtime for year 2018 was 1.132813
+
+![green_stocks_2018.png](Resources/green_stocks_2018.png)
 
 ### Outcomes of Refactored code analysis
 
 - Runtime for year 2017 was 0.1328125
+
+
 - Runtime for year 2018 was 0.1367188
+
+
 
 ### Overall decrease in runtime and decrease in percentage using 2017 data
 
