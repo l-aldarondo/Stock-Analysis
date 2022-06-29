@@ -20,11 +20,11 @@ The purpose of this project had two objectives: (1) To provide an initial analys
 
 The initial code (asynchronous) iterates over the entire year's worth of stock data once for each “stock of interest”. This required twelve separate iterations over the entire year's data. The results for each of the two years analyzed is shown below in Fig 1.1 and Fig 1.2
 
-![green_stocks_2017__with_data.png](Images/green_stocks_2017__with_data.png)
+![AllStockAnalysis_2017__with_data.png](Images/AllStockAnalysis_2017__with_data.png)
 
 <sub> Figure 1.1 Initial AllStockAnalysis_2017
 
-![green_stocks_2018__with_data.png](Images/green_stocks_2018__with_data.png)
+![AllStockAnalysis_2018__with_data.png](Images/AllStockAnalysis_2018__with_data.png)
 
 <sub>Figure 1.2 Initial_AllStockAnalysis_2018
 
