@@ -18,7 +18,7 @@ The purpose of this project had two objectives: (1) To provide an initial analys
 
 ### Analysis of Outcomes
 
-The initial code (asynchronous) iterates over the entire year's worth of stock data once for each “stock of interest”. This required twelve separate iterations over the entire year's data. The results for each of the two years analyzed is shown below in Fig 1.1 and Fig 1.2
+Aligned with the purpose of the project, we created a code in VBA and then refactored it. The initial code (asynchronous) iterates over the entire year's worth of stock data once for each “stock of interest”. This required twelve separate iterations over the entire year's data. The results for each of the two years analyzed is shown below in Fig 1.1 and Fig 1.2
 
 ![AllStockAnalysis_2017__with_data.png](Images/AllStockAnalysis_2017__with_data.png)
 
