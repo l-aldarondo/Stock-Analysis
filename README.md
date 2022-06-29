@@ -105,5 +105,5 @@ Percentage runtime reduction = (0.9960942 / 1.132813)* 100 = **87.93%**
 - The results of the refactoring the already working VBA script represented an **88%** decrease in runtime while still achieving the identical summary results as shown in tables Fig 1.1 to 1.4
 - We improved the legibility and comprehensibility of the code, now it is easier to read without the additional nested ”for loop” and macros.
  
- [Markdown Reference 1](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+ [Markdown Reference 1](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)<br />
  [Markdown Reference 2](https://www.markdownguide.org/basic-syntax/)
