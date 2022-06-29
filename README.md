@@ -1,12 +1,12 @@
 # stock-analysis
 
-Performing data analysis on stocks data using Visual Basic for Applications (VBA).
+Performing data analysis on stocks data using Excel and Visual Basic for Applications (VBA).
 
 ## VBA Stock Market Analysis
 
 ## Background
 
-The stakeholders were interested in performing an analysis of thousands of stocks over multiple years using Excel and VBA.
+The client/stakeholders were interested in performing an analysis of thousands of stocks over multiple years using Excel and VBA.
 
 ## Overview of Project
 
