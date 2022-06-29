@@ -10,7 +10,10 @@ The client/stakeholders were interested in performing an analysis of thousands o
 
 ## Overview of Project
 
-This analysis aims to provide the “total daily volume” and “yearly return”  for twelve stocks of interest for a given year.
+This analysis aims to provide the “total daily volume” and “yearly return”  for twelve stocks of interest for a given year as shown in Fig 1.1
+
+![green_data_analysis_example.jpg](Images/green_data_analysis_example.jpg)<br />
+<sub>Figure 1.1 example of summary table
 
 ### Purpose
 
@@ -18,27 +21,26 @@ The purpose of this project had two objectives: (1) To provide an initial analys
 
 ### Analysis of Outcomes
 
-Aligned with the purpose of the project, we created a code in VBA and then refactored it. The initial code (asynchronous) iterates over the entire year's worth of stock data once for each “stock of interest”. This required twelve separate iterations over the entire year's data. The results for each of the two years analyzed is shown below in Fig 1.1 and Fig 1.2
+Aligned with the purpose of the project, we created a code in VBA and then refactored it. The initial code (asynchronous) iterates over the entire year's worth of stock data once for each “stock of interest”. This required twelve separate iterations over the entire year's data. The results for each of the two years analyzed is shown below in Fig 1.2 and Fig 1.3
 
-![AllStockAnalysis_2017__with_data.png](Images/AllStockAnalysis_2017__with_data.png)
+![AllStockAnalysis_2017__with_data.png](Images/AllStockAnalysis_2017__with_data.png)<br />
+<sub> Figure 1.2 Initial AllStockAnalysis_2017<br />
+<p>&nbsp;</p>
 
-<sub> Figure 1.1 Initial AllStockAnalysis_2017
+![AllStockAnalysis_2018__with_data.png](Images/AllStockAnalysis_2018__with_data.png)<br />
+<sub>Figure 1.3 Initial_AllStockAnalysis_2018<br />
+<p>&nbsp;</p>
 
-![AllStockAnalysis_2018__with_data.png](Images/AllStockAnalysis_2018__with_data.png)
+The refactored (synchronous) code iterated over all data for a given year only once while still capturing all necessary values needed to update the summary table as shown below in Fig 1.4 and 1.5
 
-<sub>Figure 1.2 Initial_AllStockAnalysis_2018
+![VBA_Challenge_2017_with_data.png](Images/VBA_Challenge_2017_with_data.png)<br />
+<sub>Figure 1.4 VBA_Challenge_2017_Refactored<br />
+<p>&nbsp;</p>
 
-The refactored (synchronous) code iterated over all data for a given year only once while still capturing all necessary values needed to update the summary table as shown below in Fig 1.3 and 1.4
+![VBA_Challenge_2018__with_data.png](Images/VBA_Challenge_2018__with_data.png)<br />
+<sub>Figure 1.5 VBA_Challenge_2018_Refactored<br />
 
-![VBA_Challenge_2017_with_data.png](Images/VBA_Challenge_2017_with_data.png)
-
-<sub>Figure 1.3 VBA_Challenge_2017_Refactored
-
-![VBA_Challenge_2018__with_data.png](Images/VBA_Challenge_2018__with_data.png)
-
-<sub>Figure 1.4 VBA_Challenge_2018_Refactored
-
-If we compare the output values in the summary tables for the original code (AllStockAnalysis) and the refactored code (VBA_Challenge), we can see that both outcomes are the same as shown in Fig 1.1 to 1.4. This means that our refactored code preserved the same functionalities as our original code, but with improved runtimes.
+If we compare the output values in the summary tables for the original code (AllStockAnalysis) and the refactored code (VBA_Challenge), we can see that both outcomes are the same as shown in Fig 1.2 to 1.5. This means that our refactored code preserved the same functionalities as our original code, but with improved runtimes.
 
 
 ## Results
@@ -102,7 +104,7 @@ Percentage runtime reduction = (0.9960942 / 1.132813)* 100 = **87.93%**
  
 #### Specific for the refactored VBA code
 
-- The results of the refactoring the already working VBA script represented an **88%** decrease in runtime while still achieving the identical summary results as shown in tables Fig 1.1 to 1.4
+- The results of the refactoring the already working VBA script represented an **88%** decrease in runtime while still achieving the identical summary results as shown in tables Fig 1.2 to 1.5
 - We improved the legibility and comprehensibility of the code, now it is easier to read without the additional nested ”for loop” and macros.
  
  [Markdown Reference 1](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)<br />
