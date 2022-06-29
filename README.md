@@ -1,7 +1,7 @@
+
 # VBA Stock Market Analysis
 
 Performing data analysis on stocks data using Excel and Visual Basic for Applications (VBA).
-
 
 ## Background
 
