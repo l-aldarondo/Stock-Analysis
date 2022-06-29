@@ -1,8 +1,7 @@
-# stock-analysis
+# VBA Stock Market Analysis
 
 Performing data analysis on stocks data using Excel and Visual Basic for Applications (VBA).
 
-## VBA Stock Market Analysis
 
 ## Background
 
@@ -29,7 +28,7 @@ Aligned with the purpose of the project, we created a code in VBA and then refac
 
 ![AllStockAnalysis_2018__with_data.png](Images/AllStockAnalysis_2018__with_data.png)<br />
 <sub>Figure 1.3 Initial_AllStockAnalysis_2018<br />
-<p>&nbsp;</p>
+ 
 
 The refactored (synchronous) code iterated over all data for a given year only once while still capturing all necessary values needed to update the summary table as shown below in Fig 1.4 and 1.5
 
