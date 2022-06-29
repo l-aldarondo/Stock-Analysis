@@ -95,7 +95,7 @@ Percentage runtime reduction = (0.9960942 / 1.132813)* 100 = **87.93%**
  
 - In general, the advantages of refactoring a code include a reduced runtime which saved time while maintaining all the same functionalities of the original code. 
 - It also reduces complexity and redundancies and increases maintainability of the code.
-- However, this comes at a cost to include the time required to refactor the code.
+- However, changes are not always self-evident to the customers. Since functionality is preserved, it's harder for them to recognize the improvements.
 - Additionally, anytime code is refactored there is a potential of introducing new bugs and errors to an already working code.
 - Sometimes when large teams are working on refactoring the same code, coordination can represent a challenge since it requires greater communication within the team.
  
@@ -106,4 +106,5 @@ Percentage runtime reduction = (0.9960942 / 1.132813)* 100 = **87.93%**
 - We improved the legibility and comprehensibility of the code, now it is easier to read without the additional nested ”for loop” and macros.
  
  [Markdown Reference 1](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)<br />
- [Markdown Reference 2](https://www.markdownguide.org/basic-syntax/)
+ [Markdown Reference 2](https://www.markdownguide.org/basic-syntax/)<br />
+ [pros and cons of refactoring code](https://www.ionos.com/digitalguide/websites/web-development/what-is-refactoring/)<br />
